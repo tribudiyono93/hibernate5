@@ -29,7 +29,7 @@ public class TimeKeeper {
 	@Id
 	@GeneratedValue(generator = "uuid")
 	@GenericGenerator(name = "uuid", strategy = "uuid2")
-	@Column(name = "Timekeepr_Id", length = 36)
+	@Column(name = "Timekeeper_Id", length = 36)
 	public String getTimeKeeperId() {
 		return this.timeKeeperId;
 	}
